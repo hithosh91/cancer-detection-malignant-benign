@@ -76,32 +76,7 @@ Results
 The Decision Tree Classifier typically achieves ~90–95% accuracy on the test set, depending on the data split.
 Cross-validation scores indicate the model’s generalization performance, with higher depths potentially causing overfitting (e.g., training accuracy of 1.0 but lower cross-validation scores).
 
-Repository Details
-The repository has been created and includes:
-
-breast_cancer_prediction.py: The core script.
-README.md: This documentation.
-.gitignore: Excludes unnecessary files (e.g., __pycache__, data.csv).
-
-To update the repository with this README:
-
-Replace the existing README.md with this content.
-Commit and push changes:git add README.md
-git commit -m "Update README with detailed project information"
-git push origin main
 
 
 
-.gitignore
-The .gitignore file contains:
-__pycache__/
-*.pyc
-venv/
-data.csv
 
-License
-This project is licensed under the MIT License.
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for bug fixes, improvements, or new features.
-Contact
-For questions or feedback, contact the repository owner via GitHub.
